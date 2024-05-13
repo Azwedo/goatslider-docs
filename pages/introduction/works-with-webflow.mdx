@@ -1,0 +1,18 @@
+# Works with Webflow
+
+Yes, we have built the Goat Slider to work with Webflow, and we didn't want to do it any other way. We wanted you, with all your knowledge in Webflow, to be able to use Goat Slider out of the box.
+
+Our idea was strict: we extend the functionality of the slider and manage it, and the UI and the choices are yours.
+
+## What Can You Do?
+Everything, literally all that Webflow can do. You can design the arrows, the points, the counters, the slider sizes, their states, and everything else. The slider doesn't limit you using variables and everything that Webflow offers, except for some limitations mentioned below.
+
+## What You Can't Do?
+
+### Use On Click Animations & Events
+
+You can't use native on-click animations on the slider area because of an issue with Webflow's animation library that didn't let us manage the scripts in our way. We had to disable this. But this doesn't mean you can't use other animations, such as in view, on scroll, and other animations that Webflow offers.
+
+### Break Base Layout
+
+As long as the elements of the sliders are inside the main wrapper, everything can be customized. Arrows can be nested 10 elements down and similar for other elements, but not leave the root wrapper.

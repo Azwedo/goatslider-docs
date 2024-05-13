@@ -1,0 +1,17 @@
+{
+  "index": "The Goat Slider",
+  "introduction": "Introduction",
+  "functionality": "Functionality",
+  "contact": {
+    "title": "Contact Us ↗",
+    "type": "page",
+    "href": "https://azwedo.com",
+    "newWindow": true
+  },
+  "install": {
+    "title": "Install Goat Slider on Webflow ↗",
+    "type": "page",
+    "href": "https://azwedo.com",
+    "newWindow": true
+  }
+}

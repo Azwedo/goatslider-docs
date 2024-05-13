@@ -1,0 +1,17 @@
+import { Callout } from 'nextra/components'
+
+# How It Was Build
+ 
+This is intended to be a short dev overview. If you're not a dev, feel free to skip it. However, it will help you understand how Goat Slider works under the hood in simple terms.
+
+## Goatslider.js
+
+We've built two libs on top of two powerful libraries, Flickity and Swiper. So we have extended them to work with Webflow and its environment. And after that, a very optimal bundle is created using Rollup and shipped to the cloud on a network of CDN including 23+ servers worldwide. So the lib can load fast as a blink.
+
+<Callout>
+    Because Webflow server-side renders the pages, the slider is not injected server-side but rather needs to be fetched each time on the client-side. This can cause layout shifts for a split second, even if the files are loaded quickly and are not more than 80kb or 120kb in size.
+</Callout>
+
+## Goatslider Webflow App
+
+On top of our script, we had to build a Webflow app that allows users to easily manage sliders on their projects. This app is installable from the Webflow Marketplace, and for now, this is the only way for you to use Goat Slider. So, in this way, we combined the power of Webflow apps, the Webflow editor, and outside scripts to create a seamless experience in slider creation.
