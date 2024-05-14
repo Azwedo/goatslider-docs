@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import { Callout } from 'nextra/components'
 import { YouTubeEmbed } from '../../ui/components'
 
@@ -6,6 +8,14 @@ import { YouTubeEmbed } from '../../ui/components'
 In contrast to the Slider Type, Carousel is not a full hero-sized structure. Carousels can contain more slides per view (we recommend 4-5). Usually, this is used a lot to list blogs, features, testimonials, recipes, and much more.
 
 Carousels can also be nested on top of each other, with some limitations in certain cases.
+
+<br /> 
+<Image 
+    src="/mdx/carousel-type.png" 
+    alt="Goat Carousel Type" 
+    width={800} 
+    height={400} 
+/>
 
 ## Out Of The Box
 You can experiment with the sliders, even breaking their concepts. For example, trying to use the full-width sliders (one per view) even though Carousel is built to support multiple. Since we couldn't test all the edge cases, feel free to explore.
