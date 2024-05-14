@@ -7,6 +7,13 @@ const config: DocsThemeConfig = {
     return {
       titleTemplate: "%s | Goat Slider",
       description: "A detailed documentation for Goat Slider.",
+      openGraph: {
+        type: "website",
+        locale: "en_US",
+        url: "https://docs.goatslider.com",
+        site_name: "Goat Slider",
+        description: "A detailed documentation for Goat Slider.",
+      }
     }
   },
   project: {
