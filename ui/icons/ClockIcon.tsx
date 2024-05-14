@@ -6,18 +6,18 @@ export default function ClockIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_259_50)">
+      <g clipPath="url(#clip0_259_50)">
         <path
           d="M10.3333 17.5C14.4754 17.5 17.8333 14.1421 17.8333 10C17.8333 5.85786 14.4754 2.5 10.3333 2.5C6.19112 2.5 2.83325 5.85786 2.83325 10C2.83325 14.1421 6.19112 17.5 10.3333 17.5Z"
           stroke="currentColor"
-          stroke-width="2"
+          strokeWidth="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         ></path>
         <path
           d="M10.3333 5.5V10L13.3333 11.5"
           stroke="currentColor"
-          stroke-width="2"
+          strokeWidth="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         ></path>

@@ -23,7 +23,7 @@ export default function DotsNumberedIcon() {
       <path
         d="M10.5 8H13.5V11.5H10.5V14.5H13.5"
         stroke="currentColor"
-        stroke-width="2"
+        strokeWidth="2"
         stroke-linecap="round"
         stroke-linejoin="round"
       ></path>

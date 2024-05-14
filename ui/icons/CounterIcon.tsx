@@ -6,7 +6,7 @@ export default function CounterIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_108_116)">
+      <g clipPath="url(#clip0_108_116)">
         <rect
           opacity="0.5"
           x="1"
@@ -14,14 +14,14 @@ export default function CounterIcon() {
           width="14"
           height="11"
           stroke="currentColor"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
           stroke-linecap="round"
           stroke-linejoin="round"
         ></rect>
         <path
           d="M2.24553 2H4.38839V4.5H2.24553V6.64286H4.38839"
           stroke="currentColor"
-          stroke-width="1.77778"
+          strokeWidth="1.77778"
           stroke-linecap="round"
           stroke-linejoin="round"
         ></path>
@@ -29,7 +29,7 @@ export default function CounterIcon() {
           opacity="0.5"
           d="M12.9598 2.71429H11.5313V4.85715M11.5313 4.85715V6.64287H13.317V4.85715H11.5313Z"
           stroke="currentColor"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
           stroke-linecap="round"
           stroke-linejoin="round"
         ></path>
@@ -37,7 +37,7 @@ export default function CounterIcon() {
           opacity="0.5"
           d="M7.24553 7L9.03125 2"
           stroke="currentColor"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
           stroke-linecap="round"
           stroke-linejoin="round"
         ></path>

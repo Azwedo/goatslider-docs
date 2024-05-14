@@ -6,6 +6,7 @@ import CounterIcon from './CounterIcon'
 import DotsNumberedIcon from './DotsNumberedIcon'
 import DraggableIcon from './DraggableIcon'
 import InfiniteLoopIcon from './InfiniteLoopIcon'
+import InteractionIcon from './InteractionIcon'
 import KeyboardNavigationIcon from './KeyboardNavigationIcon'
 import LogoIcon from './LogoIcon'
 
@@ -18,6 +19,7 @@ export {
     DotsNumberedIcon,
     DraggableIcon,
     InfiniteLoopIcon,
+    InteractionIcon,
     KeyboardNavigationIcon,
     LogoIcon
 }
