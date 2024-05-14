@@ -2,16 +2,19 @@
   "index": "The Goat Slider",
   "introduction": "Introduction",
   "functionality": "Functionality",
+  "templates": "Templates",
+  "custom-options": "Custom Options",
+  "future": "Future",
   "contact": {
     "title": "Contact Us ↗",
     "type": "page",
-    "href": "https://azwedo.com",
+    "href": "https://l.azwedo.com/goat-docs-contact-azwedo",
     "newWindow": true
   },
   "install": {
     "title": "Install Goat Slider on Webflow ↗",
     "type": "page",
-    "href": "https://azwedo.com",
+    "href": "https://l.azwedo.com/docs-install-goat-slider",
     "newWindow": true
   }
 }

@@ -1,1 +1,30 @@
+import Image from 'next/image'
+import { Callout } from 'nextra/components'
+import { YouTubeEmbed } from '../../ui/components'
+
 # Slider
+
+In contrast to the Carousel. Slider is a full hero-sized slider that doesn't contain multiple items in one view. This is more commonly used in hero sections or on full-page hero/banner pages where you want to display important and creative things.
+
+{/* <br /> */}
+{/* <Image src="/assets/test.png" alt="Slider Type" width={620} height={400} /> */}
+
+<Callout>
+    Sliders can also be nested on top of each other, with some limitations in certain cases. [Read more on how to nest Sliders](https://docs.goatslider.com/functionality/core-concepts#nested-sliders)
+</Callout>
+
+## Out Of The Box
+You can experiment with the sliders, even breaking their concepts. For example, trying to use the full-width sliders in grids or more with CMS. Since we couldn't test all the edge cases, feel free to explore.
+
+## Slide Transitions
+Slider Type has slide transition transitions. When you change the slide, you can choose how it will transition to the other one. For now, it supports Slide and Fade, but more will be added in the near future.
+
+<Callout>
+    Slider Types can't be changed after the slider is created. If you want to change the type, you need to create a new slider.
+</Callout>
+
+
+## A Deep Dive
+Our team created a dedicated video on how the Slider Type works, transitions and Slider-Type specific features it includes.
+
+<YouTubeEmbed url="https://www.youtube.com/embed/sWRUzxINCoA?si=h-Cr9oGrFP317PQH" title="" />

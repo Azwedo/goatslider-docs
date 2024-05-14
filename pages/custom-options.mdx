@@ -1,0 +1,35 @@
+import { Callout } from 'nextra/components'
+
+# Custom Options
+
+This section requires some developer knowledge and covers optional, in-depth features that you might find useful. We'll discuss these features until they become a standard part of the app.
+
+## Custom Css Classes
+
+On all sliders, we append certain classes that you can use to further customize the slider. In the **Infinite Slider**, we inject two classes for the next slides and two for the previous slides. However, in **Non-Infinite** sliders, we inject two classes if there are more slides, one if there is only one additional slide, and none if there are no more slides.
+
+```css
+.goat-next {
+    /* This is applied to next slide */
+    transform: scale(1.1);
+}
+
+.goat-next-next {
+    /* This is applied to the slide after the next slide */
+    transform: scale(1);
+}
+
+.goat-prev {
+    /* This is applied to the previous slide */
+    transform: scale(0.9);
+}
+
+.goat-prev-prev {
+    /* This is applied to the slide before the previous slide */
+    transform: scale(0.8);
+}
+```
+
+<Callout>
+    We haven't tested all the edge cases for this one, and we don't provide support for it at the moment. However, you can explore it.
+</Callout>

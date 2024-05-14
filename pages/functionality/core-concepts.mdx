@@ -1,1 +1,51 @@
+import { Callout } from 'nextra/components'
+
 # Core Concepts
+
+### Editing Sliders
+
+Editing sliders is only possible when the app is open. Any edit you make that might be related to functionality (excluding UI changes) might not be reflected in the app. So animations, configuration on how the slider works should be done while the app is open.
+
+Because Webflow works like this, we can't listen in the background for operations. So for the moment this is the only way. 
+
+## Deleting Sliders
+Deleting sliders is as simple as removing the main container from the elements, and then it will not be shown in the app. In case you mistakely delete it you can undo it and the slider will be shown as previously on the app.
+
+## Don't Break Slider Structure
+The slider structure shouldn't be broken. The main container of the slider is the area where we shouldn't leave. Anything else within the elements inside is possible and allowed. In some cases you can also break the element structure.
+
+## Slider Utilities
+Every slider has a utility pack that comes with it when it is created. This is an area where you don't need to edit or remove anything from the elements. If multiple scripts are injected, we will handle them as one in the end. Removing those scripts will make the slider not work as expected.
+
+## Slider Editing
+Editing sliders is possible, but not for every aspect. The name and type cannot be changed after the slider is created. If you wish to do so, you will need to create a new slider. Other than that, you can edit the slider as you wish.
+
+## Slider Cannot Be Previewed
+Besides the UI side, none of the options can be played within the Webflow Designer Preview Mode. So tests should be done on the published site.
+
+## Doesn't Work with Native Webflow Slider
+Goat Slider doesn't extend the default Webflow slider. It is a separate entity that operates independently. Therefore, if you have a Webflow slider on the page, it won't be affected by Goat Slider, and vice versa. Additionally, if you wish to convert a Webflow slider to Goat Slider, you will need to recreate it.
+
+## Multiple Sliders on One Page
+Even though you might not need it, you can have multiple sliders on one page. Each slider entity is then handled as a separate slider, and everything within can be managed without affecting each other.
+
+<Callout>
+    Arrow navigation is not supported in multiple sliders on one page. And the sliders should be created from the app. And not copy/pasted from the same page because the ID's will be the same.
+</Callout>
+
+## Duplicating Sliders
+Duplication of sliders is possible. You just copy an element as normal in Webflow and then paste it where you want in other pages. In the same page you cannot copy/paste the same slider because the ID's will be the same. As mentioned above.
+
+<Callout>
+    We are working on for this feature to be available in the future. But is not that used so we are not prioritizing it.
+</Callout>
+
+## Nested Sliders
+Nested sliders are possible too, so you can nest CMS or non-CMS sliders within each other, and they will run as expected in their own environment.
+
+<Callout>
+    Arrow navigation and Autoplay are not supported in nested sliders. And sliders shouldn't be copied/pasted from the same page because the ID's will be the same and the slider won't work as expected.
+</Callout>
+
+## Deleting The App
+Deleting the app won't delete the sliders. They will stay there until you remove them from the Webflow elements. But deleting the app means that you can't edit them until you reinstall it on the site that has the sliders. And we hope you never do :)

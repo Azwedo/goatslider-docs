@@ -1,1 +1,28 @@
+import { Callout } from 'nextra/components'
+import { YouTubeEmbed } from '../../ui/components'
+
 # Arrows
+Arrows allow you to navigate between the slides. Arrows are included on both Slider and Carousel Types. And allow a very smooth switch experience for the users. You can disable this opsion if you don't want to have them.
+
+The arrows can be styled as you want, and all of their states can be directly manipulated using Webflow. This means you can also animate them and apply pseudo-classes to support hover or other interactions.
+
+## Arrow End Types
+For the moment we support some arrow types with sliders. Based on the needs you can configure to support your idea of your slider and its creativity.
+
+### Hidde Arrows At Start/End
+This option hiddes the arrows at the start and end. So the user don't see the arrows to click upon them. So this arrow ending case has no styles for hidden arrows.
+
+### Disable Arrows At Start/End
+This option disables the arrows at the start and end. So the user can't click on them. Styles of the disabled state are editable too within the Webflow Designer.
+
+### Always Show Arrows
+This option always shows the arrows. So the user can click on them. This is the only go for Infitie sliders.
+
+<Callout>
+    Because of the flexibility, we don't prevent you from setting an infinite loop and disabling or hidding the arrows at the end. We aim to provide flexibility to users. However, using ends with an infinite loop is not a recommended approach but is still allowed.
+</Callout>
+
+## A Deep Dive
+Our team created a dedicated video on how to work with Arrows, their differences, and best practices.
+
+<YouTubeEmbed url="https://www.youtube.com/embed/sWRUzxINCoA?si=h-Cr9oGrFP317PQH" title="" />

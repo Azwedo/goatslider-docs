@@ -1,3 +1,18 @@
+import { Callout } from 'nextra/components'
+import { YouTubeEmbed } from '../../ui/components'
+
 # Keyboard Navigation
 
-{/* keyboard navigation is disabled when the sliders are chained#  */}
+Sliders are cool, but what's even cooler is the availability of keyboard navigation. Yes, you can navigate through the slides using the right `>` and left `<` arrows on the published site.
+
+Keep in mind that this behavior differs in other configurations. For example, when the infinite loop is disabled, it will not work to go beyond the slides in this case. In opposite, when the infinite loop is enabled it goes through next and previous slides endlessly.
+
+<Callout>
+    Keyboard navigation is disabled when the sliders are nested or when multiple sliders are on the same page.
+</Callout>
+
+## A Deep Dive
+
+Our team created a dedicated video on how Keyboard navigation works, and some edge cases of them.
+
+<YouTubeEmbed url="https://www.youtube.com/embed/sWRUzxINCoA?si=h-Cr9oGrFP317PQH" title="" />
