@@ -1,5 +1,6 @@
 {
   "index": "The Goat Slider",
+  "showcase": "Showcase",
   "introduction": "Introduction",
   "functionality": "Functionality",
   "templates": "Templates",
@@ -12,7 +13,7 @@
     "newWindow": true
   },
   "install": {
-    "title": "Install Goat Slider on Webflow ↗",
+    "title": "Install Goat Slider ↗",
     "type": "page",
     "href": "https://l.azwedo.com/docs-install-goat-slider",
     "newWindow": true
