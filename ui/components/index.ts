@@ -1,5 +1,5 @@
-import YouTubeEmbed from './YouTubeEmbed'
+import LoomEmbed from './LoomEmbed'
 
 export {
-    YouTubeEmbed
+    LoomEmbed
 }
