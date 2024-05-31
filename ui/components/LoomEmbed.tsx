@@ -1,6 +1,6 @@
 const LoomEmbed = ({ url, title }) => {
     return (
-        <div className='mb-4' style={{ position: 'relative', paddingBottom: '56.25%', height: '0' }}>
+        <div className='mb-4' style={{ position: 'relative', paddingBottom: '56.25%', height: '0', width: '85%' }}>
             <iframe 
                 src={`${url}&hide_owner=true&hideEmbedTopBar=true&hide_share=true&hide_title=true&hide_owner=true`} 
                 frameBorder="0" 
