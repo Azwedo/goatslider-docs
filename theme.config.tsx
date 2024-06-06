@@ -6,6 +6,7 @@ const config: DocsThemeConfig = {
   useNextSeoProps() {
     return {
       titleTemplate: "%s | Goat Slider",
+      defaultTitle: "Goat Slider Documentation",
       description: "A detailed documentation for Goat Slider.",
       keywords: [
         "Goat Slider", 
