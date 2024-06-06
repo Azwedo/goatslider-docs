@@ -7,12 +7,36 @@ const config: DocsThemeConfig = {
     return {
       titleTemplate: "%s | Goat Slider",
       description: "A detailed documentation for Goat Slider.",
+      keywords: [
+        "Goat Slider", 
+        "Documentation", 
+        "Azwedo",
+        "Goat Slider Docs",
+        "Goat Slider Documentation",
+        "Learn Goat Slider"
+    ],
       openGraph: {
         type: "website",
         locale: "en_US",
         url: "https://docs.goatslider.com",
         site_name: "Goat Slider",
         description: "A detailed documentation for Goat Slider.",
+        images: [
+            {
+                url: '/assets/og_thumbnail.png'
+            }
+        ]
+      },
+      twitter: {
+        card: 'summary_large_image',
+        site: '@goatslider',
+        title: 'Goat Slider Documentation',
+        description: 'A detailed documentation for Goat Slider.',
+        images: [
+            {
+                url: '/assets/og_thumbnail.png'
+            }
+        ]
       }
     }
   },
