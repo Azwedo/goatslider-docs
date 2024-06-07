@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
         "Goat Slider Docs",
         "Goat Slider Documentation",
         "Learn Goat Slider"
-    ],
+      ],
       openGraph: {
         type: "website",
         locale: "en_US",
