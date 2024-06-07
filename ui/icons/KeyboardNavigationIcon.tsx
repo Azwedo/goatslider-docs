@@ -44,13 +44,13 @@ export default function KeyboardNavigationIcon() {
       <path
         d="M17.3334 9L18.3334 10L17.3334 11"
         stroke="currentColor"
-        stroke-linecap="round"
-      ></path>
+        strokeLinecap="round"
+      />
       <path
         d="M3.33337 9L2.33337 10L3.33337 11"
         stroke="currentColor"
-        stroke-linecap="round"
-      ></path>
+        strokeLinecap="round"
+      />
     </svg>
   )
 }

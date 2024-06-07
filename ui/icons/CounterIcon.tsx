@@ -15,32 +15,32 @@ export default function CounterIcon() {
           height="11"
           stroke="currentColor"
           strokeWidth="1.33333"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         ></rect>
         <path
           d="M2.24553 2H4.38839V4.5H2.24553V6.64286H4.38839"
           stroke="currentColor"
           strokeWidth="1.77778"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></path>
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
         <path
           opacity="0.5"
           d="M12.9598 2.71429H11.5313V4.85715M11.5313 4.85715V6.64287H13.317V4.85715H11.5313Z"
           stroke="currentColor"
           strokeWidth="1.33333"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></path>
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
         <path
           opacity="0.5"
           d="M7.24553 7L9.03125 2"
           stroke="currentColor"
           strokeWidth="1.33333"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></path>
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
       </g>
       <defs>
         <clipPath id="clip0_108_116">
