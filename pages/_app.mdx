@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import { NextSeo } from 'next-seo'
-
 export default function GoatSlider({ Component, pageProps }) {
     return (
         <>
@@ -23,31 +20,8 @@ export default function GoatSlider({ Component, pageProps }) {
                     }
                 `}
             </style>
-
-            <Head>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-                
-                <title>
-                    Goat Slider Documentation
-                </title>
-
-                <meta name="description" content="A detailed documentation for Goat Slider." />
-                
-                <meta property="og:title" content="Goat Slider Documentation" />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://docs.goatslider.com" />
-                <meta property="og:site_name" content="Goat Slider" />
-                <meta property="og:locale" content="en_US" />
-
-                <meta property="og:image" content="https://docs.goatslider.com/assets/og_thumbnail.jpg" />
-                <meta property="og:description" content="A detailed documentation for Goat Slider." />
-
-                <meta name="twitter:image" content="https://docs.goatslider.com/assets/og_thumbnail.jpg" />
-                <meta name="twitter:description" content="A detailed documentation for Goat Slider." />
-            </Head>
-
             <Component {...pageProps} />
         </>
     )
+
 }
